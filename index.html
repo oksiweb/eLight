@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+    <header>
+            <div class="container-fluid headerTop">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                             <div class="col-lg-12 col-md-12 col-sm-12 sectionsDashboard">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 headerTopBlock">
+                                            <a href="index.html" class="headerLogo"><img src="images/headerLogo.png"  alt="Logo"></a>
+                                            <a href="index.html" class="headerLogoText">eLight</a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 headerTopBlock">
+                                        <form class="form-search form-inline">
+                                            <div class="input-append">
+                                                <button type="submit" class="btn btnAll glyphicon glyphicon-menu-down">ALL <span><i class="fa fa-chevron-down"></i></span></button>
+                                                <input type="search" class="search-query form-control" placeholder="Search" />
+                                                <button type="submit" class="btn searchbtn glyphicon glyphicon-search"></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 headerTopBlock">
+                                        <div class="headerLang"><span class="langFlag"></span>North Americd (en)<span class="langCaretDown"> <i class="fa fa-caret-down"></i></span></div>
+                                        <p>Hello, <span>John Smith</span><span class="line">|</span><span>Logout</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid headerNav">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-1 navPoint"><span><i class="fa fa-home homeHouse"></i></span>Dashboard</div>
+                                    <div class="col-md-1 navPoint">Products</div>
+                                    <div class="col-md-1 navPoint">Quotes/SPA</div>
+                                    <div class="col-md-1 navPoint">Orders</div>
+                                    <div class="col-md-1 navPoint">Payables</div>
+                                    <div class="col-md-1 navPoint">Reports</div>
+                                    <div class="col-md-1 navPoint">Resources</div>
+                                    <div class="col-md-2 navPoint">Account Management</div>
+                                    <div class="col-md-1 navPoint">Help</div>
+
+                                    <div class="col-md-offset-1 col-md-1 navPoint">cut</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </header>
+
+
+
+    <section class="container-fluid content">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <h1>Welcome to your Dashboard, John!</h1>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row">
+                            <div class="col-md-3 contentAlert">
+                                <div class="articlesBlock">
+                                    <h3>GE Alerts</h3>
+                                    <hr/>
+                                    <p><span>Plant Shutdown:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. </p>
+                                    <p><span>Update:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. </p>
+                                    <p><span>Update:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. </p>
+                                    <p><span>Update:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 contentLookUp">
+                                <h3>Quick Product Look Up</h3>
+                                <hr/>
+                                <div class="formLookup">
+                                    <label>Product Code or Description:</label><br/>
+                                    <input type="text"/><br/>
+                                    <label>Product Code or Description:</label><br/>
+                                    <input type="text"/><br/>
+                                    <label>Sold To Account:</label><br/>
+                                    <div class="btn-group">
+                                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                            urner Cunstr. Corp - 1234567899 <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu">
+                                           <li>test</li>
+                                            <li>test</li>
+                                            <li>test</li>
+                                        </ul>
+                                    </div>
+
+                                    <button type="button" class="btn btn-primary btn-lg lookupButton">Look UP</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 contentOrders">
+                                <div class="row">
+                                    <div class="col-md-4">Recent Orders</div>
+                                    <div class="col-md-4">Recent Quotes/SPA </div>
+                                    <div class="col-md-4">Payables</div>
+                                </div>
+                                <hr/>
+                                <p>Go to Order History</p>
+                                <div class="row">
+                                    <div class="col-md-2 status">
+                                        <h6>Status</h6>
+                                        <p><img src="images/red.png" alt="status"/></p>
+                                        <p><img src="images/green.png" alt="status"/></p>
+                                        <p><img src="images/blue.png" alt="status"/></p>
+                                        <p><img src="images/green.png" alt="status"/></p>
+                                        <p><img src="images/green.png" alt="status"/></p>
+                                        <p><img src="images/green.png" alt="status"/></p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h6>Order Number</h6>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6>Amount Name</h6>
+                                        <p>RCWConstr Corp</p>
+                                        <p>RCWConstr Corp</p>
+                                        <p>RCWConstr Corp</p>
+                                        <p>RCWConstr Corp</p>
+                                        <p>RCWConstr Corp</p>
+                                        <p>RCWConstr Corp</p>
+
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h6>Acct No</h6>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                        <p>399887227</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6>Requested Date</h6>
+                                        <p>03/31/2015</p>
+                                        <p>03/31/2015</p>
+                                        <p>03/31/2015</p>
+                                        <p>03/31/2015</p>
+                                        <p>03/31/2015</p>
+                                        <p>03/31/2015</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+     <footer class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2 footerNav">
+                                    <p>Products</p>
+                                    <a>Indoor Fixtures</a>
+                                    <a>Outor Fixtures</a>
+                                    <a>Control Systems</a>
+                                    <a>LED Lamps & Modules</a>
+                                    <a>Refrigerated Display</a>
+                                    <a>See all Products</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 footerNav">
+                                    <p>Resources</p>
+                                    <a>Where to Buy</a>
+                                    <a>Document Library</a>
+                                    <a>My Account</a>
+                                    <a>Pressroom</a>
+                                    <a>About GE Lighting</a>
+                                    <a>Lighting Institute</a>
+                                    <a>Site Map</a>
+                                </div>
+                                <div class="col-md-2  col-sm-2 footerNav">
+                                    <p>GE Corporate</p>
+                                    <a>Corporate</a>
+                                    <a>GE Careers</a>
+                                    <a>Investor information</a>
+                                    <a>Ecomagination</a>
+                                </div>
+                                <div class="col-md-2 col-sm-2 footerNav">
+                                    <p>Legal</p>
+                                    <a>Privacy Policy</a>
+                                    <a>Cookie Disclosure</a>
+                                    <a>Accessibility Statement</a>
+                                    <a>Terms of Use</a>
+                                    <a>Terms of Sale</a>
+                                </div>
+                                <div class="col-md-offset-1 col-md-3 col-sm-4 footer__copyright">
+                                    <div class="footer-logo">
+                                        <img src="images/footerLogo.png" />
+
+                                    </div>
+                                    <div class="copyright">
+                                        <div>1997-2015 © Copyright</div>
+                                        <div>General Electric Company</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+
+
+
+
+</html>
