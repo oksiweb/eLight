@@ -65,12 +65,12 @@
 	height: 34px;
 	position: absolute;
 	top: 9px;
-	right: 95px;
+	right: 112px;
 	z-index: 1000;
 }
 .headerLang{
 	color:#adb5bc;
-	padding-left: 30%;
+	padding-left: 35%;
 }
 .line{
 	color: #adb5bc !important;
@@ -78,10 +78,10 @@
 }
 .headerTopBlock p{
 	color:#fff;
-	padding-left: 25%;
+	padding-left: 30%;
 }
 .headerTopBlock{
-	padding: 0;
+
 }
 .headerTopBlock span{
 	color:#57b1eb;
@@ -105,8 +105,10 @@
 }
 .homeHouse{
 	color: #a3afbf;
-	margin-right: 5px;
 	font-size: 18px;
+}
+.cartShop{
+	padding-right:10px;
 }
 /* = = = = = HEADER FINISH = = = = = = = = */
 
