@@ -97,8 +97,20 @@
 	color:#fff !important;
 }
 .navPoint {
+	font-family: Roboto-Regular;
 	padding: 1.5% 0;
 	text-align: center;
+}
+.navPointLast{
+	font-family: Roboto-Regular;
+	padding: 1.5% 0;
+	text-align: center;
+}
+.navPoint:after{
+	content: "|";
+	margin-left:15px;
+	color:#d6d9da;
+	position: absolute;
 }
 .fa-chevron-down{
 	color:#999fa6;
@@ -110,6 +122,7 @@
 .cartShop{
 	padding-right:10px;
 }
+
 /* = = = = = HEADER FINISH = = = = = = = = */
 
 /* = = = = = = = = CONTENT START = = = = = = = = */
@@ -191,8 +204,8 @@ background: #f9f9f9;
 .status p{
 	text-align: center;
 }
-.content h1{
-	padding-left: 0px;
+.content h5{
+	padding:19px 0px;
 	font-size: 36px;
 	color: #a3afbf;
 	font-family: Roboto-Regular;
@@ -264,7 +277,8 @@ footer{
 
 }
 .checkBoxLeft{
-	width:50%;
+	padding-left:4%;
+	width:45%;
 	float:left;
 }
 .checkBoxRight{
@@ -284,6 +298,7 @@ footer{
 	padding:2% 0;
 }
 .popupButton{
+	margin-left: 4%;
 	margin-top:23px;
 	height: 43px;
 	width: 185px;
