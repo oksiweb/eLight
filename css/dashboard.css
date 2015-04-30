@@ -260,13 +260,16 @@ footer{
 	height:100%;
 	background:#e6e6e6;
 	width: 100%;
-	padding:20px;
+	padding:30px;
 }
 .footerNav{
+	width:19%;
+	padding:0;
 	border-left:1px solid #ccc;
 	height:170px;
 }
 .footer__copyright{
+	width:24%;
 	border-left:1px solid #ccc;
 	border-right:1px solid #ccc;
 	height:170px;
@@ -280,8 +283,31 @@ footer{
 	font-family: Roboto-Regular;
 	display: inline-block;
 	color:#8e8f90;
+	cursor: pointer;
 }
-
+.footerCol {
+	margin:0 auto;
+	width: 72%;
+}
+.footer-logo{
+	margin:0 auto;
+	width: 72%;
+}
+.copyright{
+	color:#b7b7b7;
+	text-align: center;
+	margin:0 auto;
+	width: 72%;
+}
+.footer__copyright p{
+	padding: 16px 0;
+	color: #878787;
+    text-transform: uppercase;
+	font-family: Roboto-Medium;
+	font-weight: 100;
+    font-size:14px;
+	text-align:center;
+}
 /* = = = = = = = = FOOTER FINISH = = = = = = = = */
 
 /* = = = = = = = = popup START = = = = = = = = */
