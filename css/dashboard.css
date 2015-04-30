@@ -58,12 +58,12 @@
 	padding:9px 0;
 }
 .search-query{
-	width:370px !important;
+	width:430px !important;
 
 }
 
 .searchbtn{
-	background: #f1f1f1;
+	background: #dbe0e7;
 	display: block;
 	width: 37px;
 	height: 34px;
@@ -132,8 +132,8 @@
 
 /* = = = = = = = = CONTENT START = = = = = = = = */
 .content{
-background: #f9f9f9;
-	height:1000px;
+    background: #f9f9f9;
+	height:700px;
 }
 .contentAlert{
 	padding: 0;
@@ -184,6 +184,13 @@ background: #f9f9f9;
 .formLookup input{
 	width:100%;
 	height:2em;
+	border:1px solid #ccc;
+}
+.formLabel{
+	margin-top:20px;
+}
+.quantityInput{
+	width:50% !important;
 }
 .contentLookUp h3{
 	padding-left: 4%;
