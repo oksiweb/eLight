@@ -143,6 +143,16 @@
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
 	background: #729acc;
 }
+nav{
+	border: none !important;
+	background: #fff !important;
+}
+.navMenu{
+	padding:0;
+}
+.navbar-collapse{
+	padding:0 !important;
+}
 /* = = = = = HEADER FINISH = = = = = = = = */
 
 /* = = = = = = = = CONTENT START = = = = = = = = */
@@ -312,33 +322,31 @@
 	color:#000;
 }
 
-.tabContent:first-child:after {
-	content: "|";
-	margin-right: 20px;
-	position: absolute;
-	color: #ccc;
-	margin-left: 31px;
-}
-.tabContent:last-child:before {
-	content: "|";
-	position: absolute;
-	color: #ccc;
-	margin-left: -46px;
-}
  .orderHistory{
-	position: relative;
-	left: 451px;
-	margin: -12px 0 0 0;
+	 position: relative;
+	 left: 450px;
+	 top: 13px;
+	 margin: -12px 0 0 0;
+	 width: 130px;
 }
-nav{
-	border: none !important;
-	background: #fff !important;
+
+.contentTabBlock{
+	padding-top: 22px;
 }
-.navMenu{
-	padding:0;
+.tabContentText{
+	padding: 22px;
 }
-.navbar-collapse{
-	padding:0 !important;
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	width: 11em;
+	margin: 0;
+	padding: 10px 0px;
+	color:#000;
+}
+.nav-tabs>li>a{
+	width: 11em;
+	margin: -3px;
+	padding: 10px 0px;
+	color:#ccc;
 }
 /* = = = = = = = = CONTENT FINISH = = = = = = = = */
 
