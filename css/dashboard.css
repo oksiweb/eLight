@@ -281,7 +281,10 @@ nav{
 	font-family: Roboto-Black;
 	font-size: 16px;
 }
-
+.buttonLarge{
+	width: 17em;
+	height: 3em;
+}
 .status p:nth-child(even){
 	background: #ccc;
 }
