@@ -14,6 +14,10 @@
 	font-family: Roboto-Lightitalic;
 	src: url(../fonts/Roboto-LightItalic.ttf);
 }
+@font-face {
+	font-family: Roboto-Black;
+	src: url(../fonts/Roboto-Black.ttf);
+}
 .clear{
 	clear:both;
 }
@@ -196,8 +200,10 @@ background: #f9f9f9;
 	line-height:13px;
 }
 .contentOrders{
-	width:50%;
+	width:51%;
 	padding:0;
+    overflow-y:scroll;
+	overflow-x:hidden;
 	height:450px;
 	background: #fff;
 	margin-left: 20px;
@@ -205,9 +211,18 @@ background: #f9f9f9;
 }
 .status h6{
 	text-align: center;
+	font-family: Roboto-Black;
+	font-size: 16px;
 }
 .status p{
+	margin: 0;
+	padding: 0px;
+	height: 40px;
 	text-align: center;
+	vertical-align: middle;
+}
+.status{
+	padding:0;
 }
 .userWelcome{
 	padding:19px 0px;
@@ -217,6 +232,17 @@ background: #f9f9f9;
 }
 .sectionsDashboard{
 	padding:0;
+}
+.tabContent{
+	padding-top:14px;
+	text-align: center;
+	font-size:18px;
+	font-family: Roboto-Medium;
+}
+.orderHistory{
+	position: absolute;
+	right: 10px;
+	top: 63px;
 }
 /* = = = = = = = = CONTENT FINISH = = = = = = = = */
 
