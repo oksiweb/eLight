@@ -264,7 +264,8 @@ nav{
 }
 .lookupButton{
 	margin-top:20px;
-	width:100%;
+	margin-left:1px;
+	width:99%;
 	height:2em;
 	line-height:13px;
 }
@@ -281,9 +282,38 @@ nav{
 	font-family: Roboto-Black;
 	font-size: 16px;
 }
-.buttonLarge{
+.btn-group{
+	position: relative;
+}
+.btn-group:hover{
+	background: #fff;
+}
+.buttonLargeLookUp:hover{
+	background: transparent;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+	background: #fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+	background: transparent;
+}
+.dropDownMenu{
+	width:100%;
+
+}
+.buttonLargeLookUp{
 	width: 17em;
 	height: 3em;
+	text-align:left;
+	color:#6d96c9;
+}
+.buttonSmallLookUp{
+	position:absolute !important;
+	right: 2px;
+	top: 4px;
+	background: #fff;
+	border-left: 1px solid #ccc !important;
+	display: block;
 }
 .status p:nth-child(even){
 	background: #ccc;
