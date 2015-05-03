@@ -1,26 +1,72 @@
 @font-face {
 	font-family: Roboto-Bold;
-	src: url(../fonts/Roboto-Bold.ttf);
+	src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+	font-weight: normal;
 }
 @font-face {
 	font-family: Roboto-Regular;
-	src: url(../fonts/Roboto-Regular.ttf);
+	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+	font-weight: normal;
 }
 @font-face {
 	font-family:     Roboto-Medium;
-	src: url(../fonts/Roboto-Medium.ttf);
+	src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+	font-weight: normal;
 }
 @font-face {
 	font-family: Roboto-Lightitalic;
-	src: url(../fonts/Roboto-LightItalic.ttf);
+	src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
+	font-weight: normal;
 }
 @font-face {
 	font-family: Roboto-Black;
-	src: url(../fonts/Roboto-Black.ttf);
+	src: url(../fonts/Roboto-Black.ttf) format('truetype');
+	font-weight: normal;
 }
 .clear{
 	clear:both;
 }
+.row{
+	margin:0;
+	padding: 0;
+}
+.container{
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+/* = = = = = = = = media SMALL START = = = = = = = = */
+@media screen and (min-width: 768px) and (max-width: 960px)  {
+	.input-append {
+		padding: 0.6em 4em 0.6em 0.8em !important;
+	}
+
+}
+
+
+/* = = = = = = = = media SMALL FINISH = = = = = = = = */
+
+/* = = = = = = = = media EXTRA_SMALL START = = = = = = = = */
+@media screen and (min-width: 468px) and (max-width: 767px)  {
+	body{
+		display: none;
+	}
+
+}
+
+/* = = = = = = = = media EXTRA-SMALL FINISH = = = = = = = = */
+
+/* = = = = = = = = media EXTRA_SMALL START = = = = = = = = */
+@media screen and (max-width: 467px)  {
+	body{
+		display: none;
+	}
+
+}
+
+
+/* = = = = = = = = media EXTRA-SMALL FINISH = = = = = = = = */
 /* = = = = = = = = HEADER START = = = = = = = = */
 
 .headerTop{
@@ -35,7 +81,11 @@
 	background:#fff;
 	width: 100%;
 }
+.headerLogo{
+	padding-right: 5px;
+}
 .headerLogoText{
+	font-size:20px;
 	text-decoration: none;
 	font-family: Roboto-Medium;
 	color:#fff;
@@ -54,40 +104,57 @@
 }
 .input-append{
 	position: relative;
-	padding:9px 0;
+	padding: 0.6em 4em 0.6em 5.8em;
 }
 .search-query{
-	width:430px !important;
+	width: 98% !important;
+	font-size: 14px;
+	font-family: Roboto-Regular;
 
 }
 
 .searchbtn{
 	background: #dbe0e7;
-	display: block;
-	width: 37px;
-	height: 34px;
+	z-index: 10;
 	position: absolute;
-	top: 9px;
-	right: 112px;
-	z-index: 1000;
+	top: 8px;
+	height: 34px;
+	width: 34px;
+	right: 4em;
+	border: none;
+	border-radius: 0 5px 5px 0;
+}
+.searchbtnIcon{
+	font-size:20px;
+	color:#484d53;
 }
 .headerLang{
 	color:#adb5bc;
-	padding-left: 35%;
+	position: absolute;
+	right: -13px;
+	font-size:12px;
+	font-family: Roboto-Regular;
 }
 .line{
 	color: #adb5bc !important;
-	padding: 0 5px;
+	padding: 0 13px;
 }
-.headerTopBlock p{
+.headerTopBlockLang p{
 	color:#fff;
-	padding-left: 30%;
+	position: absolute;
+	right: -12px;
+	top:21px;
+	font-size:14px;
+	font-family: Roboto-Regular;
 }
-.headerTopBlock{
-
+.headerTopBlockLang{
+	position: relative;
+    padding-top:2px;
 }
-.headerTopBlock span{
+.headerTopBlockLang span{
 	color:#57b1eb;
+	font-size:14px;
+	font-family: Roboto-Regular;
 }
 .langFlag{
 	width: 25px;
@@ -98,6 +165,7 @@
 }
 .langCaretDown{
 	color:#fff !important;
+	margin-left:14px;
 }
 .navPoint {
 	font-family: Roboto-Regular;
@@ -158,7 +226,7 @@ nav{
 /* = = = = = = = = CONTENT START = = = = = = = = */
 .content{
     background: #f9f9f9;
-	height:700px;
+	height:55em;
 }
 .contentAlert{
 	position:relative;
@@ -518,3 +586,4 @@ footer{
 	font-size:40px;
 }
 /* = = = = = = = = popup FINISH = = = = = = = = */
+
