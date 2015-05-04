@@ -495,7 +495,7 @@ nav{
 .contentOrders{
 	position: relative;
 	margin-top: 12px;
-	width: 38.8em;
+	width: 38.85em;
 	padding: 0px;
 	height: 485px;
 	background: #fff;
@@ -674,7 +674,8 @@ footer{
 	color:#b7b7b7;
 	text-align: center;
 	margin:0 auto;
-	width: 72%;
+	width: 77%;
+	font-size:13px;
 }
 .footer__copyright p{
 	padding: 16px 0;
