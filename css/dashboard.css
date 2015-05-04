@@ -803,27 +803,52 @@ footer{
 }
 .checkBoxLeft{
 	padding-left:4%;
-	width:45%;
+	width:48%;
 	float:left;
 }
 .checkBoxRight{
 	width:50%;
 	float:right;
 }
-.pop-up label{
+
+.pop-up input {
+	display: none;
+}
+.pop-up label {
 	font-family: Roboto-Regular;
 	font-size:14px;
-	display: inline;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 45px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-weight: normal;
+	color: #505357;
 }
-.pop-up label{
-	padding-left:10px;
-	display: inline;
+.pop-up label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	margin-right: 10px;
+	position: absolute;
+	left: 18px;
+	background-color: #fff;
+	border: 1px solid #d0d5dc;
 }
-.checkboxBlock{
-	padding:2% 0;
+.pop-up input[type=checkbox]:checked + label:before {
+	content: "\2713";
+	font-size: 16px;
+	color: #3b73b9;
+	text-align: center;
+	line-height: 16px;
+	font-weight: bold;
+
 }
 .popupButton{
-	margin-left: 4% ;
+	margin-left: 8% ;
 	margin-top:23px;
 	height: 43px;
 	width: 185px;
