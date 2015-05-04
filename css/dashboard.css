@@ -263,7 +263,7 @@
 .headerLang{
 	color:#adb5bc;
 	position: absolute;
-	right: -13px;
+	right: -5px;
 	font-size:12px;
 	font-family: Roboto-Regular;
 }
@@ -271,10 +271,13 @@
 	color: #adb5bc !important;
 	padding: 0 13px;
 }
+.navbar-nav.navbar-right:last-child{
+	margin-right: -10px;
+}
 .headerTopBlockLang p{
 	color:#fff;
 	position: absolute;
-	right: -12px;
+	right: -5px;
 	top:21px;
 	font-size:14px;
 	font-family: Roboto-Regular;
@@ -544,11 +547,7 @@ nav{
 	border-radius: 5px;
 	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
-.status h6{
-	text-align: center;
-	font-family: Roboto-Black;
-	font-size: 13px;
-}
+
 
 .btn-group{
 	position: relative;
@@ -666,6 +665,25 @@ nav{
 	position: relative;
 	top: -15px;
 	border:none;
+}
+.contentTabBlock table thead th {
+	font-family: Roboto-Black;
+	font-size: 13px;
+}
+.contentTabBlock table thead th,
+.contentTabBlock table tbody td {
+	border: 0;
+	height: 35px;
+	vertical-align: baseline;
+}
+.contentTabBlock table tbody td a,
+.contentTabBlock table tbody td {
+	color: #858d97;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+}
+.contentTabBlock table tbody tr:nth-child(odd) {
+	background-color: #f2f4f6;
 }
 /* = = = = = = = = CONTENT FINISH = = = = = = = = */
 
