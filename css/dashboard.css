@@ -439,23 +439,25 @@ nav{
 }
 .scrollArrowTop{
 	position: absolute;
-	right: 1px;
+	right: 6px;
 	top: 2px;
 	font-size: 19px;
 }
 .scrollArrowDown {
 	position: absolute;
-	right: 1px;
+	right: 6px;
 	bottom: 1px;
 	font-size: 19px;
 }
 .articlesBlock{
 	margin-top:20px;
+	margin-right:6px;
 	height: 440px;
 	overflow-y:scroll;
 }
 .scrollOrders{
 	margin-top:20px;
+	margin-right:6px;
 	height: 440px;
 	overflow-y:scroll;
 	overflow-x:hidden;
