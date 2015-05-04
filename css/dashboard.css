@@ -94,6 +94,21 @@
 		right: -15em !important;
 		top:-6em !important;
 	}
+	.content{
+		height:85em !important;
+	}
+	.footerNav{
+		width:32.5% !important;
+	}
+	.footerNavLast{
+		width:32.5% !important;
+		border-left:none !important;
+	}
+	.footer__copyright{
+		float: right;
+		width: 38% !important;
+		border: none !important;
+	}
 
 }
 
