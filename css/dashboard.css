@@ -211,9 +211,9 @@
 	color:#b5bbbc !important;
 	font-family: Roboto-Regular;
 	font-weight: 100;
-	font-size:14px;
+	font-size:16px;
 	float:left;
-	width:20%;
+	width:22%;
 	color:#fff;
 }
 .search-query{
@@ -223,6 +223,27 @@
 	font-family: Roboto-Regular;
 
 }
+.search-query::-webkit-input-placeholder {
+	color:#b5bbbc;
+	font-size: 14px;
+	font-family: Roboto-Regular;
+
+}
+.search-query::-moz-placeholder {
+	color: #b5bbbc;
+	font-size: 14px;
+	font-family: Roboto-Regular;
+}
+.search-query:-moz-placeholder          {
+	color: #b5bbbc;
+	font-size: 14px;
+	font-family: Roboto-Regular;
+}
+.search-query:-ms-input-placeholder      {
+	color: #b5bbbc;
+	font-size: 14px;
+	font-family: Roboto-Regular;
+}
 
 .searchbtn{
 	background: #dbe0e7;
@@ -231,7 +252,7 @@
 	top: 8px;
 	height: 34px;
 	width: 34px;
-	right: 3.8em;
+	right: 2.8em;
 	border: none;
 	border-radius: 0 5px 5px 0;
 }
@@ -369,6 +390,9 @@ nav{
 .navbar-collapse{
 	padding:0 !important;
 }
+.navbar-default .navbar-nav>li>a{
+	color:#212427;
+}
 /* = = = = = HEADER FINISH = = = = = = = = */
 
 /* = = = = = = = = CONTENT START = = = = = = = = */
@@ -445,7 +469,7 @@ nav{
 .articlesBlock p{
 	color:#858d97;
 	font-family: Roboto-Regular;
-	padding: 0 1em 2em 2em;
+	padding: 0 1em 0em 2em;
 	font-size: 14px;
 }
 .articlesBlock p span{
