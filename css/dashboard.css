@@ -290,22 +290,20 @@ nav{
     background: #f9f9f9;
 	height:55em;
 }
-.contentAlert{
-	position:relative;
+.contentDashboard{
+	margin-left:10px;
 	padding: 0;
-	width: 23%;
-	height: 450px;
+}
+.contentAlert{
+	height: 485px;
+	margin-top: 12px;
+	padding: 0;
+	position: relative;
+	width: 21em;
 	background: #fff;
-	margin-left: 0px;
 	box-shadow: inset 0px 0px 4px #e2e2e2, 2px 2px 3px #e2e2e2;
 }
-.scrollArrowDown {
-	content: "\f0d7";
-	position: absolute;
-	right: 2px;
-	bottom: 1px;
-	font-size: 19px;
-}
+
 ::-webkit-scrollbar {
 	width: 12px;
 }
@@ -324,13 +322,19 @@ nav{
 }
 .scrollArrowTop{
 	position: absolute;
-	right: 2px;
+	right: 1px;
 	top: 2px;
+	font-size: 19px;
+}
+.scrollArrowDown {
+	position: absolute;
+	right: 1px;
+	bottom: 1px;
 	font-size: 19px;
 }
 .articlesBlock{
 	margin-top:20px;
-	height: 410px;
+	height: 440px;
 	overflow-y:scroll;
 }
 .scrollOrders{
@@ -351,8 +355,8 @@ nav{
 .articlesBlock p{
 	color:#858d97;
 	font-family: Roboto-Regular;
-	padding: 7%;
-	font-size: 12px;
+	padding: 0 1em 2em 2em;
+	font-size: 14px;
 }
 .articlesBlock p span{
 	font-family: Roboto-Bold;
@@ -363,12 +367,17 @@ nav{
 	color:#ff0000;
 }
 .contentLookUp{
-	width:22%;
+	margin-top: 12px;
+	position:relative;
+	width:20.5em;
 	padding:0;
-	height:450px;
+	height:485px;
 	background: #fff;
-	margin-left: 20px;
+	margin-left: 25px;
 	box-shadow: inset 0px 0px 4px #e2e2e2, 2px 2px 3px #e2e2e2;
+}
+.lineModule{
+	margin:1.1em 0;
 }
 .formLookup{
 	padding: 4%;
@@ -385,7 +394,7 @@ nav{
 	width:50% !important;
 }
 .contentLookUp h3{
-	padding-left: 4%;
+	padding-left: 10%;
 	font-family: Roboto-Medium;
 	font-size:18px;
 }
@@ -400,9 +409,11 @@ nav{
 	line-height:13px;
 }
 .contentOrders{
-	width:51%;
-	padding:0;
-	height:450px;
+	position: relative;
+	margin-top: 12px;
+	width: 38.8em;
+	padding: 0px;
+	height: 485px;
 	background: #fff;
 	margin-left: 20px;
 	box-shadow: inset 0px 0px 4px #e2e2e2, 2px 2px 3px #e2e2e2;
@@ -410,7 +421,7 @@ nav{
 .status h6{
 	text-align: center;
 	font-family: Roboto-Black;
-	font-size: 16px;
+	font-size: 12px;
 }
 .btn-group{
 	position: relative;
@@ -446,7 +457,7 @@ nav{
 	display: block;
 }
 .status p:nth-child(even){
-	background: #ccc;
+	background: #f2f4f6;
 }
 .status p{
 	line-height: 41px;
@@ -477,7 +488,7 @@ nav{
 
 	margin-top:-5px;
 	text-align: center;
-	font-size:18px;
+	font-size:15px;
 	font-family: Roboto-Medium;
 }
 .tabContent a{
@@ -487,7 +498,7 @@ nav{
 
  .orderHistory{
 	 position: relative;
-	 left: 450px;
+	 left: 360px;
 	 top: 13px;
 	 margin: -12px 0 0 0;
 	 width: 130px;
@@ -497,12 +508,11 @@ nav{
 	padding-top: 22px;
 }
 .tabContentText{
-	padding: 22px;
+
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
 	width: 11em;
 	margin: 0;
-	padding: 10px 0px;
 	color:#000;
 }
 .nav-tabs>li>a{
@@ -520,34 +530,39 @@ footer{
 	height:100%;
 	background:#e6e6e6;
 	width: 100%;
-	padding:30px;
+
+}
+.footerContainer{
+	padding:1.5em 0;
 }
 .footerNav{
-	width:19%;
+	width:19.5%;
 	padding:0;
 	border-left:1px solid #ccc;
 	height:170px;
 }
 .footer__copyright{
-	width:24%;
+	width:22%;
 	border-left:1px solid #ccc;
 	border-right:1px solid #ccc;
 	height:170px;
+	position: relative;
+	right: -1em;
 }
 .footerNav p{
 	font-family: Roboto-Bold;
-	font-weight: 600;
 	color:#000;
 }
 .footerNav a{
 	font-family: Roboto-Regular;
+	font-size:13px;
 	display: inline-block;
 	color:#8e8f90;
 	cursor: pointer;
 }
 .footerCol {
 	margin:0 auto;
-	width: 72%;
+	width: 65%;
 }
 .footer-logo{
 	margin:0 auto;
