@@ -59,6 +59,12 @@
 	.status h6{
 		font-size:11px !important;
 	}
+	.footerNav a{
+		font-size:10px !important;
+	}
+	.footerNavLast a{
+		font-size:10px !important;
+	}
 }
 
 
@@ -79,6 +85,12 @@
 	}
 	.contentAlert{
 		width:17em !important;
+	}
+	.footerNav a{
+		font-size:10px !important;
+	}
+	.footerNavLast a{
+		font-size:10px !important;
 	}
 }
 
