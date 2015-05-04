@@ -387,10 +387,10 @@ nav{
 	position: relative;
 	width: 21em;
 	background: #fff;
-	-webkit-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
@@ -465,10 +465,10 @@ nav{
 	height:485px;
 	background: #fff;
 	margin-left: 25px;
-	-webkit-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 .lineModule{
@@ -514,10 +514,10 @@ nav{
 	height: 485px;
 	background: #fff;
 	margin-left: 20px;
-	-webkit-border-radius: 10px;
-	-o-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 .status h6{
