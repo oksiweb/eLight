@@ -334,16 +334,19 @@
 	padding: 1.5% 0;
 	text-align: center;
 }
-.navLine:after{
+.navLine:nth-child(even) a:after{
 	content: "|";
-	color: #d6d9da;
+	color: #eeeff0;
 	position: absolute;
-	right: -6px;
+	right: -3px;
 	top: 1.3em;
-
 }
-.fa-chevron-down{
-	color:#999fa6;
+.navLine:nth-child(odd) a:before{
+	content: "|";
+	color: #eeeff0;
+	position: absolute;
+	right: -11px;
+	top: 1.3em;
 }
 .homeHouse{
 	color: #a3afbf;
@@ -386,6 +389,7 @@
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
 	background: #3b73b9 !important;
 	color:#fff;
+	z-index: 10;
 }
 .navbar-nav>li>.dropdown-menu{
 	background: #3b73b9 !important;
