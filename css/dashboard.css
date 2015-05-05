@@ -303,7 +303,7 @@
 }
 .headerTopBlockLang{
 	position: relative;
-    padding-top:2px;
+    top:4px;
 }
 .headerTopBlockLang span{
 	color:#57b1eb;
@@ -311,6 +311,9 @@
 	font-family: Roboto-Regular;
 }
 .langFlag{
+	position: relative;
+	top: 4px;
+	right: 5px;
 	width: 25px;
 	height: 16px;
 	display: inline-block;
@@ -447,7 +450,7 @@ nav{
 }
 
 ::-webkit-scrollbar {
-	width: 12px;
+	width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -464,15 +467,15 @@ nav{
 }
 .scrollArrowTop{
 	position: absolute;
-	right: 7px;
+	right: 6px;
 	top: 2px;
-	font-size: 19px;
+	font-size: 17px;
 }
 .scrollArrowDown {
 	position: absolute;
-	right: 6px;
+	right: 5px;
 	bottom: 1px;
-	font-size: 19px;
+	font-size: 17px;
 }
 .articlesBlock{
 	margin-top:20px;
