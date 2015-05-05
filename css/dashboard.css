@@ -654,7 +654,7 @@ nav{
 }
 
  .orderHistory{
-	 left: 386px;
+	 left: 380px;
 	 position: relative;
 	 top: -49px;
 	 width: 130px;
@@ -718,6 +718,12 @@ nav{
 }
 .contentTabBlock table tbody tr:nth-child(odd) {
 	background-color: #f2f4f6;
+}
+.text-first{
+	padding: 8px 8px 8px 2px !important;
+}
+td img{
+	padding-left:5px;
 }
 /* = = = = = = = = CONTENT FINISH = = = = = = = = */
 
