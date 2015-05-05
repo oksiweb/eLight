@@ -878,6 +878,9 @@ footer{
 	font-weight: bold;
 
 }
+.modal-open .modal{
+	overflow-y:hidden !important;
+}
 .popupButton{
 	margin-left: 8% ;
 	margin-top:23px;
