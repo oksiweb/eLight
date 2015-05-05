@@ -42,6 +42,9 @@
 	.navbar-nav > li {
 		margin-left: 0px !important;
 	}
+	.input-append label{
+		font-size:13px !important;
+	}
 	.contentOrders{
 		width:34.5em !important;
 		margin-left: 5px !important;
@@ -53,6 +56,7 @@
 	.contentAlert{
 		width:17em !important;
 	}
+
     .tabContent{
 		font-size:13px !important;
 	}
@@ -74,6 +78,9 @@
 
 	.navbar-nav > li {
 		margin-left: 0px !important;
+	}
+	.input-append label{
+		font-size:13px !important;
 	}
 	.contentOrders{
 		width:31em !important;
@@ -136,6 +143,9 @@
 	}
 	.searchbtn{
 		right: 0em !important;
+	}
+	.input-append label{
+		font-size:13px !important;
 	}
 
 }
@@ -274,6 +284,9 @@
 .navbar-nav.navbar-right:last-child{
 	margin-right: -10px;
 }
+.headerTopBlock{
+	margin-top:3px;
+}
 .headerTopBlockLang p{
 	color:#fff;
 	position: absolute;
@@ -350,6 +363,12 @@
 	margin-top: -10px;
 }
 .navbar-right li span{
+	margin-left: -2px;
+	font-size: 13px;
+	font-family: Roboto-Bold;
+	font-weight: 600;
+}
+.navbar-right li{
 	margin-left: 3px;
 	font-size:13px;
 	font-family:Roboto-Medium;
@@ -439,7 +458,7 @@ nav{
 }
 .scrollArrowTop{
 	position: absolute;
-	right: 6px;
+	right: 7px;
 	top: 2px;
 	font-size: 19px;
 }
@@ -470,12 +489,13 @@ nav{
 }
 .articlesBlock hr{
 	width:86%;
+	border:none;
 }
 .articlesBlock p{
 	color:#858d97;
 	font-family: Roboto-Regular;
 	padding: 0 1em 0em 2em;
-	font-size: 14px;
+	font-size: 12px;
 }
 .articlesBlock p span{
 	color:#000;
@@ -504,6 +524,7 @@ nav{
 	margin:1.1em 1em;
 	height: 1px;
 	width:80%;
+	border:none;
 	background: #a3afbf;
 }
 .formLookup{
@@ -531,7 +552,7 @@ nav{
 .lookupButton{
 	margin-top:24px;
 	margin-left:0px;
-	width:98%;
+	width:99%;
 	height:2em;
 	line-height:13px;
 }
@@ -571,7 +592,7 @@ nav{
 
 }
 .buttonLargeLookUp{
-	width: 17em;
+	width: 17.1em;
 	height: 3em;
 	text-align:left;
 	color:#6d96c9;
@@ -656,9 +677,11 @@ nav{
 .lineModuleOrders{
 	position: relative;
 	top: -32px;
+	width: 94%;
 	z-index: 999;
 	background: #a3afbf;
 	height: 1px;
+	border: none;
 }
 .nav-tabs>li>a{
 	color:#ccc;
