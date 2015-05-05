@@ -903,5 +903,8 @@ footer{
 	top: -5px;
 	font-size:40px;
 }
+.modal-backdrop.in{
+	opacity: 0.9 !important;
+}
 /* = = = = = = = = popup FINISH = = = = = = = = */
 
