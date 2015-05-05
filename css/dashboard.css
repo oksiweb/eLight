@@ -686,7 +686,7 @@ nav{
 .lineModuleOrders{
 	position: relative;
 	top: -32px;
-	width: 94%;
+	width: 100%;
 	z-index: 999;
 	background: #a3afbf;
 	height: 1px;
@@ -698,7 +698,11 @@ nav{
 .nav-tabs{
 	position: relative;
 	top: -15px;
+	right:13px;
 	border:none;
+}
+.contentTabBlockTable{
+	padding: 0;
 }
 .contentTabBlock table thead th {
 	font-family: Roboto-Black;
